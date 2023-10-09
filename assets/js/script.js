@@ -1,6 +1,5 @@
-/* Author: 
+const button = document.querySelectorAll('.btn');
 
-*/
 
 
 
