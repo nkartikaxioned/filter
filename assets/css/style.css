@@ -79,7 +79,7 @@ sub { bottom: -.25em; }
 }
 
 .cf:after { clear: both; }
-.cf { *zoom: 1; }
+.cf { zoom: 1; }
 
 /*for all*/
 body {
@@ -103,14 +103,20 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+body { background: #272727; }
+.active { background: #ABDAB4; }
+.caps-first { text-transform: capitalize; }
 /*=================================
   Header styling starts here
 =================================*/
 
+.nav-list { margin: 10px 0; }
 
-
-
-
+.nav-list li a {
+  padding: 10px 30px;
+  color: #fff;
+} 
 
 /*=================================
   Header styling ends here
