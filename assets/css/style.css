@@ -107,6 +107,7 @@ li {
 body { background: #272727; }
 .active { background: #ABDAB4; }
 .caps-first { text-transform: capitalize; }
+.displaynone { display: none; }
 /*=================================
   Header styling starts here
 =================================*/
