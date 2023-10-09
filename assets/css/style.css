@@ -118,6 +118,11 @@ body { background: #272727; }
   color: #fff;
 } 
 
+.image-list li {
+  width: 33%;
+  margin: 3px 0 3px 0;
+  
+}
 /*=================================
   Header styling ends here
 =================================*/  
